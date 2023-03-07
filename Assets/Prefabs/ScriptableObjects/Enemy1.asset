@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a97df2c96881154f96fc8615ca35603, type: 3}
+  m_Name: Enemy1
+  m_EditorClassIdentifier: 
+  enemyName: Small Enemy
+  health: 20
+  chaseRange: 5
+  target: {fileID: 1759781097422663682, guid: d8d24b4dcf456f44c83d70d015f0a51d, type: 3}
+  wayPoints:
+  - {fileID: 3538808149260958320, guid: 43538756b844f98488a774de059e6c5f, type: 3}
+  - {fileID: 2851939353072750194, guid: 5ed0e69da3779bc48abf21901c09e959, type: 3}
+  - {fileID: 306014310840706542, guid: 243f294cc8b585f42a26ae318fb7afe4, type: 3}
