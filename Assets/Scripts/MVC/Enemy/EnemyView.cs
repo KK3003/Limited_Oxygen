@@ -10,15 +10,11 @@ public class EnemyView : MonoBehaviour
     private void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        
-       
     }
 
 
     public void SetEnemyController(EnemyController _enemyController)
     {
         enemyController = _enemyController;
-    }
-
-   
+    }  
 }

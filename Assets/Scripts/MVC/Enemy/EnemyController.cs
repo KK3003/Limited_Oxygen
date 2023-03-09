@@ -10,7 +10,6 @@ public class EnemyController : MonoBehaviour
     protected EnemyState currentState;
     
 
-
     public EnemyController(EnemyModel _enemyModel, EnemyView _enemyView, Transform _enemySpawnPos)
     {
         enemyModel = _enemyModel;

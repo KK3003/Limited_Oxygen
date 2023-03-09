@@ -13,7 +13,6 @@ public class EnemyService : MonoBehaviour
 
     public void SpawnEnemy()
     {
-       
         CreateNewEnemy();
     }
 

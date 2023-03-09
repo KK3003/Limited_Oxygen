@@ -30,7 +30,6 @@ public class PlayerController
     }
 
 
-
     public void Jump()
     {
         rb.AddForce(Vector3.up * playerModel.JumpForce, ForceMode.Impulse);

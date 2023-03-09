@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class CountDownTimeManager : MonoBehaviour
 {
     public float timeLeft;
     public bool timerOn = false;
-    public Action<float> timeSurvivedByPlayer;
+    public Action<int> timeSurvivedByPlayer;
     float timesurvived = 0.0f;
     public float maxTime;
     
@@ -26,10 +26,9 @@ public class CountDownTimeManager : MonoBehaviour
                 timeLeft -= Time.deltaTime;
                 UpdateTimer(timeLeft);
                 timesurvived += Time.deltaTime;
-                //Debug.Log("Time" +timesurvived);
+                timeSurvivedByPlayer?.Invoke((int)timesurvived);
                 TimeSurvivedByPlayer(timesurvived);
                 Updateo2Bar(maxTime, timeLeft);
-               // Debug.Log("maxtime:" + maxTime + "currenttime" + timeLeft);
             }
         }
         else

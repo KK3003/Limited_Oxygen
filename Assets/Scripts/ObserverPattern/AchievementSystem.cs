@@ -2,15 +2,29 @@ using UnityEngine;
 
 public class AchievementSystem : MonoBehaviour
 {
-    CountDownTimeManager countDownTimeManager;
-    void TimeSurvivedAchievement(float time)
+    public CountDownTimeManager countDownTimeManager;
+    void TimeSurvivedAchievement(int time)
     {
         switch (time)
         {
-            case >= 5.0f:
+            case 10:
                 Debug.Log("Survived Achieved");
                 UIManager.instance.timeSurvivedAchievementPanel.gameObject.SetActive(true);
                 UIManager.instance.timeSurvivedAchievementText.text = "10 Seconds Survived";
+                break;
+            case 30:
+                Debug.Log("Survived Achieved");
+                UIManager.instance.timeSurvivedAchievementPanel.gameObject.SetActive(true);
+                UIManager.instance.timeSurvivedAchievementText.text = "30 Seconds Survived";
+                break;
+            case 50:
+                Debug.Log("Survived Achieved");
+                UIManager.instance.timeSurvivedAchievementPanel.gameObject.SetActive(true);
+                UIManager.instance.timeSurvivedAchievementText.text = "50 Seconds Survived";
+                break;
+            default:
+                UIManager.instance.timeSurvivedAchievementPanel.gameObject.SetActive(false);
+                UIManager.instance.timeSurvivedAchievementText.text = "";
                 break;
         }     
     }
@@ -20,7 +34,6 @@ public class AchievementSystem : MonoBehaviour
     void Start()
     {
         Debug.Log("In Achevement");
-        countDownTimeManager = GameObject.FindObjectOfType<CountDownTimeManager>();
         countDownTimeManager.timeSurvivedByPlayer += TimeSurvivedAchievement;
     }
 

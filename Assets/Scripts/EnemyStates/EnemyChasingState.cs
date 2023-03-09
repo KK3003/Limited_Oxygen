@@ -1,5 +1,3 @@
-
-
 public class EnemyChasingState : EnemyState
 {
     public override void OnEnterState()

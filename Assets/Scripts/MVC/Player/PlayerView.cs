@@ -7,16 +7,13 @@ public class PlayerView : MonoBehaviour
     private float movement;
     private float rotation;
 
-
    
     void Start()
     {
         GameObject cam = GameObject.Find("Main Camera");
         cam.transform.SetParent(transform);
         cam.transform.position = new Vector3(0f, 2f, 1f);
-        // playerController = GetComponent<PlayerController>();
     }
-
 
 
     private void Update()
@@ -47,14 +44,11 @@ public class PlayerView : MonoBehaviour
         rotation = Input.GetAxis("Horizontal");
     }
 
-  
 
     public void SetPlayerController(PlayerController _playerController)
     {
         playerController = _playerController;
     }
-
-
 
     private void OnCollisionEnter(Collision collision)
     {
