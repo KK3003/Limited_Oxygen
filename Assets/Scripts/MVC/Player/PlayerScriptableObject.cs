@@ -8,4 +8,5 @@ public class PlayerScriptableObject : ScriptableObject
     public float rotationSpeed;
     public float health;
     public float jumpForce;
+   
 }

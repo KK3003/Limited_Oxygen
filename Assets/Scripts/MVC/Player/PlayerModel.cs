@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class PlayerModel
 {
 
@@ -6,11 +8,14 @@ public class PlayerModel
         Health = playerScriptableObject.health;
         MovementSpeed= playerScriptableObject.movementSpeed;
         RotationSpeed = playerScriptableObject.rotationSpeed;
-        JumpForce = playerScriptableObject.jumpForce;    
+        JumpForce = playerScriptableObject.jumpForce;  
+        
     }
 
    public float Health { get; set; }
    public float MovementSpeed { get; }
     public float RotationSpeed { get; }
     public float JumpForce { get; }
+
+ 
 }
