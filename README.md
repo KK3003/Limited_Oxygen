@@ -16,7 +16,7 @@ ___
 ___
 ___
 # Features
-* The Patterns and principles used in this project include:
+The Patterns and principles used in this project include:
 * Observer Pattern - Using Observer Pattern to create an Achievement System.
 * State Machine Pattern - Using State Machine pattern to create Enemy states.
 * Singleton Pattern - Using Singletons for managers or sevices.
