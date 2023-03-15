@@ -1,4 +1,4 @@
-# Limited_Oxygen
+# Limited Oxygen
 Limited Oxygen - 3D game
 
 This is a 3D project made using Unity and C#.
