@@ -3,14 +3,13 @@ Limited Oxygen - 3D game
 
 This is a training project using Unity's Battle Tank base artwork. In this project I have implemented various Design Patterns and have tried to maintain a SOLID, readable code.
 ___
-___
 # Screenshots
 ___
-![screenshot](/ScreenShots/ox1.png)
+![screenshot](/Screenshots/ox1.png)
 ___
-![screenshot](/ScreenShots/ox2.png)
+![screenshot](/Screenshots/ox2.png)
 ___
-![screenshot](/ScreenShots/ox3.png)
+![screenshot](/Screenshots/ox3.png)
 ___
 ___
 # Features
