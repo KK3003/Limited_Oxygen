@@ -6,11 +6,11 @@ ___
 ___
 # Screenshots
 ___
-![screenshot](/ScreenShots/1.jpg)
+![screenshot](/ScreenShots/ox1.png)
 ___
-![screenshot](/ScreenShots/2.jpg)
+![screenshot](/ScreenShots/ox2.png)
 ___
-![screenshot](/ScreenShots/3.jpg)
+![screenshot](/ScreenShots/ox3.png)
 ___
 ___
 # Features
