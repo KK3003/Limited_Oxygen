@@ -1,16 +1,5 @@
-# Limited Oxygen
-Limited Oxygen - 3D game
-
-This is a training project using Unity's Battle Tank base artwork. In this project I have implemented various Design Patterns and have tried to maintain a SOLID, readable code.
-___
-# Screenshots
-___
-![screenshot](/Screenshots/ox1.png)
-___
-![screenshot](/Screenshots/ox2.png)
-___
-![screenshot](/Screenshots/ox3.png)
-___
+# No Oxygen
+This is a 3D project based on the concept of limited capacity where player needs to get to the safe zone before running out of the oxygen. In this project I have implemented game design patterns while trying to maintain Solid architecture of the code.
 ___
 # Features
 The Patterns and principles used in this project include:
@@ -19,4 +8,13 @@ The Patterns and principles used in this project include:
 * Singleton Pattern - Using Singletons for managers or sevices.
 * Scriptable Objects - For handling data related to player and enemies
 * MVC Pattern - For separating out data, view and controller.
+# Screenshots
+___
+![screenshot](/Screenshots/ox1.png)
+___
+![screenshot](/Screenshots/ox2.png)
+___
+![screenshot](/Screenshots/ox3.png)
+
+
 
